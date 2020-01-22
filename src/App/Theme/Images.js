@@ -5,5 +5,6 @@
 export default {
   appLogo: require('App/Assets/Images/SL_Logo.png'),
   appIcon: require('App/Assets/Images/appIcon.jpeg'),
-  appFlashLogo: require('App/Assets/Images/appFlashLogo.png'),
+  appSplashLogo: require('App/Assets/Images/appSplashLogo.png'),
+  loader: require('App/Assets/Images/loader.gif'),
 }

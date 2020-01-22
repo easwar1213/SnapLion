@@ -12,6 +12,8 @@ export default StyleSheet.create({
   logoSnapLion:{
     width:wp('100%'),
     height:hp('100%'),
-    resizeMode:'stretch'
+    resizeMode:'stretch',
+    alignItems:'center',
+    justifyContent:'center'
   }
 })

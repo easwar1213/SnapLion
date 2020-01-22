@@ -1,13 +1,20 @@
 import React from 'react'
-import { Text, View, Image } from 'react-native'
+import { Text, View, ImageBackground, Image } from 'react-native'
 import styles from './SplashScreenStyle'
 import { Images } from "App/Theme"
+
+const SplashScreenData={
+  "appName":"CafeEasy",
+  "appSplashLogo":Images.appSplashLogo
+}
 
 export default class SplashScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image source={Images.appFlashLogo} style={styles.logoSnapLion}></Image>
+        <ImageBackground source={SplashScreenData.appSplashLogo} style={styles.logoSnapLion}>
+          <Image source={Images.loader}></Image>
+        </ImageBackground>       
       </View>
     )
   }
