@@ -8,15 +8,10 @@ import {
 export default StyleSheet.create({
   container:{
     flex:1
-  },
-  logoContainer:{
-    flex:2,
-    alignItems:'center',
-    justifyContent:'center'
-  },
+  },  
   logoSnapLion:{
-    width:wp('50%'),
-    height:hp('20%'),
-    resizeMode:'contain'
+    width:wp('100%'),
+    height:hp('100%'),
+    resizeMode:'stretch'
   }
 })

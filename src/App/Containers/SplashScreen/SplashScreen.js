@@ -7,9 +7,7 @@ export default class SplashScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.logoContainer}>          
-          <Image source={Images.logo} style={styles.logoSnapLion}></Image>
-        </View>
+        <Image source={Images.appFlashLogo} style={styles.logoSnapLion}></Image>
       </View>
     )
   }

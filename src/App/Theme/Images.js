@@ -3,5 +3,7 @@
  */
 
 export default {
-  logo: require('App/Assets/Images/SL_Logo.png'),
+  appLogo: require('App/Assets/Images/SL_Logo.png'),
+  appIcon: require('App/Assets/Images/appIcon.jpeg'),
+  appFlashLogo: require('App/Assets/Images/appFlashLogo.png'),
 }
