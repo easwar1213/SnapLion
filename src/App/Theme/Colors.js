@@ -13,4 +13,6 @@ export default {
   primary: '#007bff',
   success: '#28a745',
   error: '#dc3545',
+  grey: '#808080',
+  red: '#FF0000'
 }
